@@ -1,0 +1,23 @@
+@media screen and (max-width: 989px){
+    body {
+        background-color: rgb(195, 255, 127);
+    }
+}
+
+@media screen and (max-width: 799px){
+    body {
+        background-color: aquamarine;
+    }
+}
+
+@media screen and (max-width: 439px){
+    body {
+        background-color: rgb(255, 172, 127);
+    }
+}
+
+@media screen and (max-width: 99px){
+    body {
+        background-color: rgb(127, 236, 255);;
+    }
+}

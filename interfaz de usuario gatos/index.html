@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <title>AppDeGatos</title>
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+  <h2 id="titulo-app-gatos">AppDeGatos</h2>
+  <main>
+    <h3>Imagenes de gatos</h3>
+    <!--Un comentario, los gatos molan :3-->
+    <p>Haz clic para ver más <a href="#" target="_blank" rel="noopener noreferrer">imagenes de gatos.</a></p>
+
+    <div>
+      <a href="#" target="_blank" rel="noopener noreferrer"><img src="https://bit.ly/fcc-relaxing-cat"
+          alt="Un lindo gato naranja recostado sobre su espalda"></a>
+    </div>
+    
+    <hr>
+
+    <h3>Lista de gatos</h3>
+
+    <div class="contenedor-listas">
+      <p>Cosas que los gatos <em>aman</em>:</p>
+      <ul id="lista-gatos-aman">
+        <li>Menta gatuna</li>
+        <li>Apuntadores laser</li>
+        <li><s>lasana</s></li>
+      </ul>
+      <img src="imagenes/lasana.jpg" alt="lasana" class="bordes-redondeados">
+
+      <p>Cosas que los gatos <strong>odian</strong></p>
+      <ol id="lista-gatos-odian">
+        <li>Tratamientos antipulgas</li>
+        <li>Truenos</li>
+        <li>Otros gatos</li>
+      </ol>
+    </div>
+    <img id="imagen-de-gatos" src="imagenes/gatos.jpg" alt="Gatos">
+
+    <form action="/enviar-respuesta">
+      <!--botones de radio-->
+      <label for="interior">
+        <input id="interior" type="radio" value="interior" name="ineterior-exterior" checked> Interior
+      </label><br>
+
+      <label for="exterior">
+        <input id="exterior" type="radio" value="exterior" name="ineterior-exterior"> Exterior
+      </label><br>
+
+      <!--casillas de verificacion-->
+      <label for="carinyoso">
+        <input id="carinyoso" type="checkbox" value="carinyoso" name="personalidad" checked>Carinyoso
+      </label><br>
+
+      <label for="perezoso">
+        <input id="perezoso" type="checkbox" value="perezoso" name="personalidad">Perezoso
+      </label><br>
+
+      <label for="energico">
+        <input id="energico" type="checkbox" value="energico" name="personalidad">Energico<br>
+      </label>
+
+      <!--Texto y boton enviar-->
+      <input type="text" placeholder="URL de la foto de tu gato" required><br>
+      <button type="submit">Enviar</button>
+    </form>
+
+  </main>
+  <footer>
+    <p><small>derechos de autor - <a href="https://github.com/Luiso-o" target="_blank">Luiso-o</a></small></p>
+  </footer>
+</body>
+
+</html>
