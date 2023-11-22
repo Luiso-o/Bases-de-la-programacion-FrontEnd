@@ -1,2 +1,2 @@
 # Bases-de-la-programacion-FrontEnd
-Aprendiendo fundamentos de HTML y CSS
+Ejercicios útiles para entender los fundamentos de HTML y CSS.
